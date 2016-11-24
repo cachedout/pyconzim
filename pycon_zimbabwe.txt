@@ -1,0 +1,386 @@
+PR OBLEM	|	OPPORTUNITY	|	COMPANY	|	PR OJECT	|	COMPETITION	|	TEAM	|	RECOGNITION	|	CUSTOMERS  	1
+Please Do Not Feed the Maintainers
+(How to Run Away and Join the Free Software Circus!)
+
+Michael Place
+mp@saltstack.com
+
+Licensed under Apache 2
+
+
+2
+Would you like Salt with That?
+Stats from a big Python project
+Started in 2011
+https://github.com/saltstack/salt
+Currently around 75,000 commits
+4,000 open Github issues
+100-150 pull requests a week
+50-100K LoC change every seven days
+Support for over a dozen platforms
+Python 2.6 (yes, really) and 2.7. Support for 3.4 is coming quickly.
+Around 1,700 developers and 7,000 GH stars
+The Salt OSS ecosystem makes up about 750,000 LoC
+On a typical day, our test infrastructure executes about 6 million automated tests.
+
+Day in the Life of a Project Maintainer
+Ringmaster in the circus that never sleeps
+Not common 
+Describe the day-to-day process of managing the project. It’s sometimes (often) less technical and far more inter-personal. Describe the diplomacy that has to occur. Just like very few countries are democracies, so too are projects. Ours is a benevolent dictatorship. 
+
+Open-source is ironically named because it can feel impossible to become a part of. 
+
+The first step to contributing to free software is using free software.
+
+Apache guide is great, but how many people are contributing to an Apache Foundation project as their first OSS commit? Not many.
+
+Katarri Washington, Account Executive
+801-305-3330| katarri@saltstack.com
+Mark Hopper, Solution Consultant
+801-506-6994| mhopper@saltstack.com
+How to Join the Circus
+OK, I’m a user. What now?
+Talk about it. Most projects like feedback. Give them some. 
+Tell your story.
+Don’t be afraid to file a bug.
+If you want to contribute and you don’t know how you can, ask
+If you don’t have anything bad to say or any bugs to file, take an hour today and write a note to each OSS project you use and tell them how you use it and what you like about it. This means the world to them!
+
+On virtue
+
+What can everyone do? Praise and blame. This is human virtue, this is human madness.
+
+-Friedrich Nietzsche
+(On virtue and maybe also on git)
+
+
+If one person submits a great patch and is a jerk and the second one submits a patch that isn’t as good but still works, guess which one is getting merged?
+
+[Creative Commons Attributions License; Wikipedia]
+Trustworthy
+Loyal
+Helpful
+Friendly
+Courteous
+Kind
+Thrifty
+Brave
+Clean
+Respectful
+“How to behave when you don’t know how to behave.”
+I praise loudly. I blame softly.
+
+-Catherine the Great
+
+Originally created in 1908. Varies a bit by culture.
+
+
+Best practices for open-source
+A brief, ambitious and opinionated guide to making your mark in the Python world.
+Building art is a synthesis of life in materialised form. We should try to bring in under the same hat not a splintered way of thinking, but all in harmony together.
+
+-Alvar Aalto
+
+
+12
+How to file a bug so that it gets fixed
+One chance to make a first impression
+Bug reports are the most common interaction that people have with OSS developers
+Knowing how to file a bug is the best skill for an open-source developer to have. 
+Your reputation in the community that you’re in will have a lot to do with how you handle bug reports
+Bug reports aren’t just about bugs. Sometimes they can be about documentation, features that you wish existed, or questions about intended behavior. 
+Projects don’t take their licensing choice lightly and neither should you.
+
+13
+What makes up a bad bug report?
+There’s so, so much. 
+The time and effort expended by a developer to acquire the information she or he needs to begin troubleshooting to is inversely proportional to the quality of the bug report!
+
+q=1/t
+
+Search first
+Always search the issue tracker for something similar.
+
+You might even find that it’s solved!
+Remember that the maintainer will have to do this even if you don’t, so be a good citizen and do this before you file a bug.
+Ask more experienced co-workers if you can, or a local mailing list.
+Consider expanding the search to other resources, like StackOverflow or IRC
+“Google can bring you back 100,000 answers. A librarian can bring you back the right one.” 
+― Neil Gaiman
+
+Is this really a bug?
+It’s easy to forget that sometimes what feels like a bug really is a documentation error or something that’s just unclear. Be open to that possibility.
+Docs > Tests > Code
+A man can fail many times, but he isn't a failure until he begins to blame somebody else.
+
+-John Burroughs
+
+
+Building a test case
+A good test case should contain as much natural language as code, if not more.
+It is not the beauty of a building you should look at; it is the construction of the foundation that will stand the test of time.
+
+- David Allan Coe
+
+Tests should be done against both the branch where you see the bug as well as the branch where active development is happening.
+The goal is to get a developer to be able to see and reproduce with a minimal amount of code.
+Bugs in the develop branch are often easier to fix but bugs in release branches are often more critical.
+
+Packaging test cases
+Consider the use of Docker as a mechanism for packaging test cases.
+
+But I think my mistakes became the chemistry for my miracles. I think that my tests became my testimonies. 
+
+-T. D. Jakes
+
+If there are lots of dependencies necessary, consider packaging them in a virtualenv.
+Automated test cases, if possible, are best
+
+Does this bug matter?
+How does this affect you specifically?
+At a certain point in their existential experience, the oppressed feel an irresistible attraction toward the oppressor and his way of life. Sharing this way of life becomes an overpowering aspiration. 
+
+- Paulo Freire
+
+How might it affect others?
+The best kind of bug report reads like a use case in a design document.
+
+C’est bon?
+Know the language and cultures that you’re dealing with. It matters more than you realize.
+
+A warm smile is the universal language of kindness.
+
+- William Arthur Ward
+
+Feel free to ask for help on the project mailing list if you need help with translation. There are also translation-specific groups out there.
+Respect time zones.
+Respect personal and professional boundaries.
+
+Whatever you do, don’t be a stranger.
+“I may not have been sure about what really did interest me, but I was absolutely sure about what didn't.” 
+
+― Albert Camus, The Stranger
+
+Katarri Washington, Account Executive
+801-305-3330| katarri@saltstack.com
+Mark Hopper, Solution Consultant
+801-506-6994| mhopper@saltstack.com
+Contributing
+
+
+To merely observe your culture without contributing to it seems very close to existing as a ghost. 
+
+-Chuck Palahniuk
+
+If you don’t have anything bad to say or any bugs to file, take an hour today and write a note to each OSS project you use and tell them how you use it and what you like about it. This means the world to them!
+
+Contributing checklist
+I woke up an hour before I was supposed to, and started going over the mental checklist: where do I go from here, what do I do? I don't remember eating anything at all, just going through the physical, getting into the suit. We practiced that so much, it was all rote.
+
+-Alan Shepard
+
+Does the bug have an issue number
+CONTRIBUTING.md
+Have you read the style guide?
+Is there a contributor agreement?
+Maybe show Salt’s style guide here?
+
+Good contributions
+Adhere to the style guide
+Good sense is both the first principal and the parent source of good writing. 
+
+-Horace
+
+Have been tested against all applicable versions.
+Only contain changes relevant to the issue in question.
+Do not mix and match functional and style changes.
+Are up-front about possible downsides.
+Don’t try to show off
+Are readable
+Have already been run through the test suite.
+
+Avoid these things!
+Adding yourself to the CONTRIBUTORS.md file before you’ve really contributed.
+
+A resolution to avoid an evil is seldom framed till the evil is so far advanced as to make avoidance impossible. 
+
+-Thomas Hardy
+Merge conflicts
+Modifying code without notifying the appropriate people.
+Using vulgar or inappropriate language in any form, even in jest.
+
+WIP pull-requests without a good reason.
+Submitting broken tests in PRs.
+
+Agreeing to disagree
+Recognize that the maintainers might have considerations you aren’t aware of.
+Honest disagreement is often a good sign of progress.
+
+- Mahatma Gandhi 
+
+Keep conversations on-topic
+Go out of your way to be polite. Be irrationally polite.
+
+Good Python
+Is a good citizen to its neighbors
+A good person can make another person good; it means that goodness will elicit goodness in the society; other persons will also be good. 
+
+-Bhumibol Adulyadej
+Uses configuration values to gate changes when appropriate
+Is modular
+
+Is modular
+
+Is free of “weasel words”
+Is free of “weasel words”
+
+Doesn’t change around keyword ordering
+
+Is visually pleasing
+
+27
+Setting out on your own
+So you want to make a project?
+You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose. 
+
+You're on your own, and you know what you know. And you are the [one] who'll decide where to go.
+
+-Dr. Seuss
+
+Not only is there no attempt to hide the damage, but the repair is literally illuminated... a kind of physical expression of the spirit of mushin....Mushin is often literally translated as “no mind,” but carries connotations of fully existing within the moment, of non-attachment, of equanimity amid changing conditions. ...The vicissitudes of existence over time, to which all humans are susceptible, could not be clearer than in the breaks, the knocks, and the shattering to which ceramic ware too is subject. This poignancy or aesthetic of existence has been known in Japan as mono no aware, a compassionate sensitivity, or perhaps identiﬁcation with, [things] outside oneself.
+”
+— Christy Bartlett, Flickwerk: The Aesthetics of Mended Japanese Ceramic
+
+Kintsugi
+
+2.8M+ people created their first GitHub repo last year.
+I'd never just want to do what everybody else did. I'd be contributing to the sameness of everything.
+
+-Captain Beefheart
+
+Around ~10% of these are Python, so that’s close to 280,000 Python projects
+
+What is the problem to which this is a solution?
+Happiness is having a scratch for every itch.
+
+-Ogden Nash
+
+
+When should I share my work?
+Program construction consists of a sequence of refinement steps. 
+
+-Niklaus Wirth
+[Inventor of Pascal]
+Work should be shared when you have the simplest thing that could possibly work.
+
+A project is ready to be shared as soon as it has the simplest possible answer to the problem.
+Problem solving is hunting. It is savage pleasure and we are born to it.
+
+-Thomas Harris
+
+In 1995, he popularized the adage now known as Wirth's law: "Software is getting slower more rapidly than hardware becomes faster." In his 1995 paperA Plea for Lean Software he attributes it to Martin Reiser.[7]
+
+What should a new project contain?
+
+README.md
+How to contribute
+Either write something worth reading or do something worth writing.
+
+-Benjamin Franklin
+Explain how your project proposes to solve it.
+Discuss the problem you are trying to solve.
+Caveats
+How to get started
+What to do if you get stuck
+
+AUTHORS.md
+
+Should contain your name and email address.
+Great authors are admirable in this respect: in every generation they make for disagreement. Through them we become aware of our differences.
+
+-Andre Gide
+A short note at the top explaining how to add your name.
+You can add people to it as they contribute if they don’t want to do it themselves. Be sure to ask first!
+
+CONDUCT.md
+Many to choose from
+Remember upon the conduct of each depends the fate of all.
+
+-Alexander the Great
+We use the Contributor Covenant.
+Easy to select one ahead of time and just re-use for every project.
+
+
+Packaging
+
+Follow the best practices at packaging.python.org.
+Information about the package is as important as the package itself. 
+
+-Frederick W. Smith
+FedEx CEO
+You may need a 	MANIFEST.in if you wish to package files which fall outside the scope of what setup.py will do for you.
+At a minimum, create a setup.py that has enough information in it that you (or a contributor) can upload your package to PyPi.
+
+Packaging (cont)
+Consider the use of twine to make all of this easier on yourself. [https://github.com/pypa/twine]
+
+Create a requirements/  directory as soon as your project has dependencies.
+
+
+INSTALLATION.md
+Be certain to mention supported versions of Python.
+This can be as easy as pointing somebody to pip install my_great_project.
+Be sure to mention again how they can get help if they get stuck.
+If the project requires installation steps, document them in this file.
+If there are certain platforms which may not work, document those here.
+
+LICENSE.md
+Select licenses wisely. It’s not always easy (and sometimes impossible) to switch licenses once you’ve selected one.
+Sharing is good, and with digital technology, sharing is easy. 
+
+- Richard Stallman
+
+Some businesses are resistant to certain licenses. If this is a concern to you, do research.
+Simply not licensing your work doesn’t mean that you’ll be free of licensing concerns.
+
+Promoting your project
+Kintsugi in practice
+Word of mouth is the most valuable form of marketing, but you can't buy it. You can only deliver it. And you have to really deliver.
+
+-G-Eazy
+
+Misspelling anecdotes
+
+Promotional ideas
+Volunteer to talk about it at user group meetings
+
+
+I don't need anybody to market or promote me. If people don't want to hear this music, then it's not for them. You cannot please everybody.
+
+- Lauryn Hill
+
+Announce it briefly on a mailing list
+Help out in places where your solution might be helpful.
+If there’s no community around your idea, make one!
+
+When you do good work, people will notice you. 
+
+- Ram Kapoor
+
+
+Image vi blog.ona.io
+African users on GitHub increased from 4,000 to 12,000 in just two years.
+Data via blog.ona.io and Yeleman in Bamako, Mali.
+Year over year, this is a bigger increase than Russia or India. In fact, it’s twice the growth rate of Japan. 
+
+Optimism is the foundation of courage. Nicholas M. Butler
+
+
+https://github.com/cachedout
+All slides are available in various formats, along with examples of the concepts we’ve discussed today.
+Absence of proof is not proof of absence.
+
+-William Cowper
+
+
+Thank you!
